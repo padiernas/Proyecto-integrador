@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #272727;
+}
+
+ header {
+  width: 100%;
+  height: 80px;
+  margin-top: 40px;
+  position: fixed;
+  z-index: 1;
+}
+
+.container-menu {
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-marca {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo-marca img {
+  width: 60px;
+}
+
+.logo-perfil {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.logo-perfil img {
+  width: 60px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.manu ul {
+  display: flex;
+}
+
+.menu ul li {
+  list-style: none;
+  margin-left: 36px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+}
+
+#selected {
+  color: #ffcb05;
+}
+
+/* cover */
+
+ .container-cover {
+  width: 100%;
+  height: 800px;
+  background: #272727;
+}
+
+.cover {
+  max-width: 1200px;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container-cover .text {
+  max-width: 400px;
+}
+
+.container-cover .text h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.container-cover .test h4 {
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.container-cover .test input {
+  padding: 18px 80px;
+  border: none;
+  font-size: 16px;
+  border-radius: 50px;
+  margin-top: 40px;
+  color: #ffffff;
+  cursor: pointer;
+  *box-shadow: 1px 1px 30px 12px #272727;
+  transition: all 300ms;
+}
+
+.container-cover .test input:hover {
+  box-shadow: 1px 1px 30px -6px #272727;
+}
+.container-cover .png img {
+  width: 600px;
+  animation: move-img 4s linear infinite;
+}
+@keyframes move-img {
+  0% {
+    transform: translatey(15px);
+  }
+  50% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(15px);
+  }
+} 
+
+/* responsive diseing */
+
+/* @media screen and (max-width: 480px:) {
+  header {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .container-menu {
+    /* max-width: 90%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between; */
+    /* position: absolute;
+    width: 280px;
+    height: 17px;
+    left: 20px;
+    top: 33px;
+  }
+} */ */
+
+/* body {
+    background-color: #272727;
+}
+header {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .container-menu {
+    max-width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .logo-marca {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .logo-marca img {
+    width: 85px;
+  }
+  .logo-perfil {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .logo-perfil img {
+    width: 17px;
+  }
+  .menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .manu ul {
+    display: flex;
+  }
+  
+  .menu ul li {
+    list-style: none;
+    /* margin-left: 36px; */
+  }
+  
+  /* .menu ul li a {
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 400;
+    color: white;
+  }
+  #selected {
+    color: #ffcb05;
+  }
+
+  /* cover */
+
+  /* .container-cover {
+    width: 100%;
+    height: 420px;
+  }
+  .cover {
+    max-width: 480px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .container-cover .text {
+    max-width: 300px;
+  }
+  
+  .container-cover .text h1 {
+    font-size: 25px;
+    font-weight: 400;
+  }
+  
+  .container-cover .test h4 {
+    font-size: 8px;
+    margin-top: 40px;
+  }
+  .container-cover .text input {
+    padding: 18px 80px;
+    border: none;
+    font-size: 16px;
+    border-radius: 50px;
+    margin-top: 40px;
+    color: #ffffff;
+    cursor: pointer;
+    *box-shadow: 1px 1px 30px 12px #272727;
+    transition: all 300ms;
+  }
+  .container-cover .test input:hover {
+    box-shadow: 1px 1px 30px -6px #272727;
+  }
+  .container-cover .png img {
+    width: 254px;
+    animation: move-img 4s linear infinite;
+  }
+  @keyframes move-img {
+    0% {
+      transform: translatey(15px);
+    }
+    50% {
+      transform: translateY(0px);
+    }
+    100% {
+      transform: translateY(15px);
+    }
+  } */ */ */
+
+  /* responsive diseing */
+
+ /* @media screen and (width: 480px:) {
+    header {
+        width: 100%;
+        height: 50px;
+        margin-top: 20px;
+        position: fixed;
+        z-index: 1;
+      }
+    
+      .container-menu {
+        max-width: 90%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+      }
+      .logo-marca {
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+      .logo-marca img {
+        width: 85px;
+      }
+      .logo-perfil {
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+      .logo-perfil img {
+        width: 17px;
+      }
+      .menu {
+        display: flex;
+        align-items: center;
+      }
+      
+      .manu ul {
+        display: flex;
+      }
+      
+      .menu ul li {
+        list-style: none;
+        /* margin-left: 36px; */
+      }
+      
+      /* .menu ul li a {
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 400;
+        color: white;
+      }
+      #selected {
+        color: #ffcb05;
+      }
+    
+      /* cover */
+    
+      /* .container-cover {
+        width: 100%;
+        height: 420px;
+      }
+      .cover {
+        max-width: 480px;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .container-cover .text {
+        max-width: 300px;
+      }
+      
+      .container-cover .text h1 {
+        font-size: 25px;
+        font-weight: 400;
+      }
+      
+      .container-cover .test h4 {
+        font-size: 8px;
+        margin-top: 40px;
+      }
+      .container-cover .text input {
+        padding: 18px 80px;
+        border: none;
+        font-size: 16px;
+        border-radius: 50px;
+        margin-top: 40px;
+        color: #ffffff;
+        cursor: pointer;
+        *box-shadow: 1px 1px 30px 12px #272727;
+        transition: all 300ms;
+      }
+      .container-cover .test input:hover {
+        box-shadow: 1px 1px 30px -6px #272727;
+      }
+      .container-cover .png img {
+        width: 254px;
+        animation: move-img 4s linear infinite;
+      }
+      @keyframes move-img {
+        0% {
+          transform: translatey(15px);
+        }
+        50% {
+          transform: translateY(0px);
+        }
+        100% {
+          transform: translateY(15px);
+        }
+      }
+ } */ */ */
